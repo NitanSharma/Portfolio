@@ -1,9 +1,9 @@
 'use client';
-import { FaSmile, FaTerminal } from 'react-icons/fa';
+import { FaTerminal } from 'react-icons/fa';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 
 const workTools = [
-  'React',
+  'React.js',
   'Node.js',
   'Next.js',
   'GitHub',
@@ -12,7 +12,7 @@ const workTools = [
   'MongoDB',
   'Tailwind',
 ];
-const funTools = ['Shadcn', 'Figma', 'magicui', ];
+
 
 export default function AboutSection() {
   return (
@@ -86,13 +86,13 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <div className="flex items-center mt-10 mb-4">
+            {/* <div className="flex items-center mt-10 mb-4">
               <FaSmile className="text-[#0AFF9D] mr-2 text-3xl" />
               <h1 className="text-white font-bold text-3xl text-nowrap">
                 Use for Fun
               </h1>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2  text-white">
+            </div> */}
+            {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2  text-white">
               {funTools.map((tool, index) => (
                 <h5
                   key={index}
@@ -101,7 +101,7 @@ export default function AboutSection() {
                   {tool}
                 </h5>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
